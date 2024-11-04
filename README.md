@@ -1,10 +1,14 @@
 # Console Colors
 Testing console colors in C#
 
-## Notes
+> [!NOTE]
 All consoles might not admit all colors
 
 ## Examples
-\x001B[38;5;41m		Changes foreground to color 41 (green)
-\x001B[48;5;196m	Changes background to color 196 (red)
-\x001B[0m			Reset Fg and Bg
+<table>
+  <tr><th>code</td><th>description</th></tr>
+  <tr><td>\x001B[38;5;41m</td><td>Changes foreground to color 41 (green)</td></tr>
+  <tr><td>\x001B[48;5;196m</td><td>Changes background to color 196 (red)</td></tr>
+  <tr><td>\x001B[0m</td><td>Resets Fg and Bg colors</td></tr>
+</table>
+
